@@ -1,0 +1,16 @@
+from openai import OpenAI
+
+# Initialize the OpenAI client
+# Replace 'your-api-key-here' with your actual API key
+client = OpenAI(api_key="your-api-key-here")
+
+# Send a message to GPT
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "user", "content": "Hello! What is 2 + 2?"}
+    ]
+)
+
+# Print the response
+print(response.choices[0].message.content)
