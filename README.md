@@ -1,4 +1,4 @@
-Started to work on this project, its in infancy stage,. between knowlwge and checking Ai , will see how this turns up
+Started to work on this project, its in infancy stage,. between knowledge and checking Ai , will see how this turns up
 
 
 
