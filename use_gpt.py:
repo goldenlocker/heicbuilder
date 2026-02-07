@@ -1,4 +1,3 @@
-from openai import OpenAI
 
 # Initialize the OpenAI client
 # Replace 'your-api-key-here' with your actual API key
